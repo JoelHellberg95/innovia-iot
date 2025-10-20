@@ -1,0 +1,56 @@
+﻿{
+    "tenantId":  "05263495-411f-4594-b950-163ff5c7ff1e",
+    "devices":  [
+                    {
+                        "serial":  "dev-101",
+                        "model":  "Acme CO2 Sensor",
+                        "id":  "99f3e1b0-a82b-4cf1-bee0-586799945d5e"
+                    },
+                    {
+                        "serial":  "dev-102",
+                        "model":  "Acme Temperature Sensor",
+                        "id":  "9a73b42d-3df7-4deb-ac1b-d4934ba2a308"
+                    },
+                    {
+                        "serial":  "dev-103",
+                        "model":  "Acme Humidity Sensor",
+                        "id":  "2162ce8b-90d6-4757-bedc-b206ad41ab4e"
+                    },
+                    {
+                        "serial":  "dev-104",
+                        "model":  "Acme CO2 Sensor",
+                        "id":  "46666142-6912-474f-bbe5-5829d96edae4"
+                    },
+                    {
+                        "serial":  "dev-105",
+                        "model":  "Acme Temperature Sensor",
+                        "id":  "f91031cb-9971-4c56-8117-8e0ff08a40fc"
+                    },
+                    {
+                        "serial":  "dev-106",
+                        "model":  "Acme Multi Sensor",
+                        "id":  "b065018b-208f-42b2-9114-27a6cbfedba5"
+                    },
+                    {
+                        "serial":  "dev-107",
+                        "model":  "Acme CO2 Sensor",
+                        "id":  "24a1be8f-8e68-418a-b7c1-1d3d082cdee3"
+                    },
+                    {
+                        "serial":  "dev-108",
+                        "model":  "Acme Temperature Sensor",
+                        "id":  "419b14b9-f9f8-4ef1-893e-2fd9c5a1c6ba"
+                    },
+                    {
+                        "serial":  "dev-109",
+                        "model":  "Acme Humidity Sensor",
+                        "id":  "d65d7e9c-c6ff-43d9-b936-b6f9389ae92f"
+                    },
+                    {
+                        "serial":  "dev-110",
+                        "model":  "Acme Multi Sensor",
+                        "id":  "8cb49fba-60dc-4577-9568-84824b1b5cca"
+                    }
+                ],
+    "tenantSlug":  "innovia"
+}
