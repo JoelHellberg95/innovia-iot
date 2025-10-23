@@ -25,16 +25,16 @@ catch (Exception ex)
 // Define all 10 devices
 var devices = new[]
 {
-    new { serial = "dev-101", model = "Acme CO2 Sensor", types = new[] { "co2", "temperature" } },
-    new { serial = "dev-102", model = "Acme Temperature Sensor", types = new[] { "temperature" } },
-    new { serial = "dev-103", model = "Acme Humidity Sensor", types = new[] { "humidity", "temperature" } },
-    new { serial = "dev-104", model = "Acme CO2 Sensor", types = new[] { "co2", "temperature" } },
-    new { serial = "dev-105", model = "Acme Temperature Sensor", types = new[] { "temperature" } },
-    new { serial = "dev-106", model = "Acme Multi Sensor", types = new[] { "co2", "temperature", "humidity" } },
-    new { serial = "dev-107", model = "Acme CO2 Sensor", types = new[] { "co2", "temperature" } },
-    new { serial = "dev-108", model = "Acme Temperature Sensor", types = new[] { "temperature" } },
-    new { serial = "dev-109", model = "Acme Humidity Sensor", types = new[] { "humidity", "temperature" } },
-    new { serial = "dev-110", model = "Acme Multi Sensor", types = new[] { "co2", "temperature", "humidity" } }
+    new { serial = "dev-101", model = "Innovia CO2 Sensor", types = new[] { "co2", "temperature" } },
+    new { serial = "dev-102", model = "Innovia Temperature Sensor", types = new[] { "temperature" } },
+    new { serial = "dev-103", model = "Innovia Humidity Sensor", types = new[] { "humidity", "temperature" } },
+    new { serial = "dev-104", model = "Innovia CO2 Sensor", types = new[] { "co2", "temperature" } },
+    new { serial = "dev-105", model = "Innovia Temperature Sensor", types = new[] { "temperature" } },
+    new { serial = "dev-106", model = "Innovia Multi Sensor", types = new[] { "co2", "temperature", "humidity" } },
+    new { serial = "dev-107", model = "Innovia CO2 Sensor", types = new[] { "co2", "temperature" } },
+    new { serial = "dev-108", model = "Innovia Temperature Sensor", types = new[] { "temperature" } },
+    new { serial = "dev-109", model = "Innovia Humidity Sensor", types = new[] { "humidity", "temperature" } },
+    new { serial = "dev-110", model = "Innovia Multi Sensor", types = new[] { "co2", "temperature", "humidity" } }
 };
 
 var rand = new Random();
@@ -77,6 +77,6 @@ while (true)
         Console.WriteLine($"[{DateTimeOffset.UtcNow:HH:mm:ss}] {device.serial} → {string.Join(", ", device.types)}");
     }
     
-    Console.WriteLine($"✅ Sent data for all {devices.Length} devices. Waiting 10 seconds...\n");
-    await Task.Delay(TimeSpan.FromSeconds(10));
+    Console.WriteLine($"✅ Sent data for all {devices.Length} devices. Waiting 5 seconds...\n");
+    await Task.Delay(TimeSpan.FromSeconds(5));
 }

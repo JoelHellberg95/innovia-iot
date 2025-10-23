@@ -6,7 +6,27 @@ builder.Services.AddDbContext<InnoviaDbContext>(o =>
     o.UseNpgsql(builder.Configuration.GetConnectionString("Db")));
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Add CORS for Angular app
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngular", policy =>
+    {
+        policy.WithOrigins(
+                "http://localhost:4200",
+                "http://127.0.0.1:4200",
+                "http://localhost:5500",
+                "http://127.0.0.1:5500"
+            )
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
+
+// Use CORS
+app.UseCors("AllowAngular");
 
 // Ensure database and tables exist (quick-start dev convenience)
 using (var scope = app.Services.CreateScope())

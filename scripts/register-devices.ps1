@@ -24,16 +24,16 @@ Write-Host "✅ Tenant created: $($tenant.name) (ID: $($tenant.id))" -Foreground
 Write-Host "`n2. Creating 10 sensor devices..." -ForegroundColor Yellow
 
 $deviceModels = @(
-    @{ model = "Acme CO2 Sensor"; serial = "dev-101"; type = "CO2" }
-    @{ model = "Acme Temperature Sensor"; serial = "dev-102"; type = "Temperature" }
-    @{ model = "Acme Humidity Sensor"; serial = "dev-103"; type = "Humidity" }
-    @{ model = "Acme CO2 Sensor"; serial = "dev-104"; type = "CO2" }
-    @{ model = "Acme Temperature Sensor"; serial = "dev-105"; type = "Temperature" }
-    @{ model = "Acme Multi Sensor"; serial = "dev-106"; type = "Multi" }
-    @{ model = "Acme CO2 Sensor"; serial = "dev-107"; type = "CO2" }
-    @{ model = "Acme Temperature Sensor"; serial = "dev-108"; type = "Temperature" }
-    @{ model = "Acme Humidity Sensor"; serial = "dev-109"; type = "Humidity" }
-    @{ model = "Acme Multi Sensor"; serial = "dev-110"; type = "Multi" }
+    @{ model = "Innovia CO2 Sensor"; serial = "dev-101"; type = "CO2" }
+    @{ model = "Innovia Temperature Sensor"; serial = "dev-102"; type = "Temperature" }
+    @{ model = "Innovia Humidity Sensor"; serial = "dev-103"; type = "Humidity" }
+    @{ model = "Innovia CO2 Sensor"; serial = "dev-104"; type = "CO2" }
+    @{ model = "Innovia Temperature Sensor"; serial = "dev-105"; type = "Temperature" }
+    @{ model = "Innovia Multi Sensor"; serial = "dev-106"; type = "Multi" }
+    @{ model = "Innovia CO2 Sensor"; serial = "dev-107"; type = "CO2" }
+    @{ model = "Innovia Temperature Sensor"; serial = "dev-108"; type = "Temperature" }
+    @{ model = "Innovia Humidity Sensor"; serial = "dev-109"; type = "Humidity" }
+    @{ model = "Innovia Multi Sensor"; serial = "dev-110"; type = "Multi" }
 )
 
 $devices = @()

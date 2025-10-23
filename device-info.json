@@ -1,0 +1,56 @@
+﻿{
+    "tenantId":  "d2156637-b9ed-438d-96f5-6495ae1c3d92",
+    "devices":  [
+                    {
+                        "serial":  "dev-101",
+                        "model":  "Innovia CO2 Sensor",
+                        "id":  "c3b45de4-cf60-4d95-82b5-76886bb171c9"
+                    },
+                    {
+                        "serial":  "dev-102",
+                        "model":  "Innovia Temperature Sensor",
+                        "id":  "cedffbe7-4d24-461d-9a94-7b78e1cd277a"
+                    },
+                    {
+                        "serial":  "dev-103",
+                        "model":  "Innovia Humidity Sensor",
+                        "id":  "8d5e5b63-ee9c-4f5b-b33c-b059f7439d30"
+                    },
+                    {
+                        "serial":  "dev-104",
+                        "model":  "Innovia CO2 Sensor",
+                        "id":  "555a9125-c48d-467e-a773-8c44afb8bd20"
+                    },
+                    {
+                        "serial":  "dev-105",
+                        "model":  "Innovia Temperature Sensor",
+                        "id":  "5e913e9a-a1ef-4386-bccf-c50d385ef72e"
+                    },
+                    {
+                        "serial":  "dev-106",
+                        "model":  "Innovia Multi Sensor",
+                        "id":  "67331bb5-f615-4dcd-90e7-c25b23b8b898"
+                    },
+                    {
+                        "serial":  "dev-107",
+                        "model":  "Innovia CO2 Sensor",
+                        "id":  "c8b76738-2b67-466b-84af-79737a8c5383"
+                    },
+                    {
+                        "serial":  "dev-108",
+                        "model":  "Innovia Temperature Sensor",
+                        "id":  "b24f432b-7a8a-4c74-ac8e-d54bb39ea7cf"
+                    },
+                    {
+                        "serial":  "dev-109",
+                        "model":  "Innovia Humidity Sensor",
+                        "id":  "9eb8a735-2b44-4b82-8c52-03f1f7356674"
+                    },
+                    {
+                        "serial":  "dev-110",
+                        "model":  "Innovia Multi Sensor",
+                        "id":  "25d073b4-9b15-4986-8d48-96df0164b7a7"
+                    }
+                ],
+    "tenantSlug":  "innovia"
+}
